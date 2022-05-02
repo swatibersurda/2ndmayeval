@@ -49,7 +49,10 @@ function App() {
 
 
        <Route path="/" element={<Home/>}></Route>
-       <Route path="/" element={<Login/>}></Route>
+       <Route path="/login" element={<Login/>}></Route>
+       <Route path="/logout" element={<Logout/>}></Route>
+       <Route path="/order" element={<Logout/>}></Route>
+       <Route path="/NewOrder" element={<Logout/>}></Route>
 
       </Routes>
     </div>
